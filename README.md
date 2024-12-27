@@ -4,6 +4,16 @@ SourceMod is a [MetaMod](https://www.metamodsource.net/about) addon that support
 
 When running a game server with SourceMod installed, it is likely that at some point you'll want to grant yourself or others permissions such as the ability to kick and ban players (admin access).
 
+## Table Of Contents
+* [Finding Steam IDs](#finding-steam-ids)
+* [Flags](#flags)
+* [Passwords](#passwords)
+* [Managing User Permissions](#managing-user-permissions)
+    * [Using The `admins_simple.ini` File](#using-the-admins_simpleini-file)
+    * [Using The `admins.cfg` File](#using-the-adminscfg-file)
+* [Reloading Users](#reloading-users)
+* [See Also](#see-also)
+
 ## Finding Steam IDs
 Before assigning permissions to users, you will need to find their Steam ID. Both SteamID2 (`STEAM_X:X:XXXXXXXX`) and SteamID3 (`[U:X:XXXXXX]`) formats are supported in SourceMod.
 
@@ -66,7 +76,7 @@ setinfo "_test" "myCustomPass123"
 
 If the user wants to automate this process on their side, they'll need to modify the file `<Game Dir>/cfg/autoexec.cfg` and add the command above to the file.
 
-## How To Manage User Permissions
+## Managing User Permissions
 Managing user permissions and assigning flags is done by modifying a file inside of the `addons/sourcemod/configs` directory (or `addons\sourcemod\configs` folder on Windows).
 
 There are two files you may edit which are explained below.
