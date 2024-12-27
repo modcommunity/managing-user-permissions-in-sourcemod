@@ -116,3 +116,5 @@ The cache should automatically reload when the map changes or server restarts. Y
 ## See Also
 * [Adding Admins](https://wiki.alliedmods.net/Adding_Admins_(SourceMod)) - Detailed Wiki on adding admins officially by AlliedMods.
 * [SourceBans++](https://sbpp.github.io/) - A popular plugin that makes it easier to manage users, groups, bans, and more!
+
+For any questions or feedback, please reply to the forum topic [here](https://forum.moddingcommunity.com/t/how-to-manage-user-permissions-in-sourcemod/193)!
