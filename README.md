@@ -4,7 +4,7 @@ SourceMod is a [MetaMod](https://www.metamodsource.net/about) addon that support
 
 When running a game server with SourceMod installed, it is likely that at some point you'll want to grant yourself or others permissions such as the ability to kick and ban players (admin access).
 
-[**View Guide On TMC (Recommended Due To Better Formatting)**](https://forum.moddingcommunity.com/t/how-to-manage-user-permissions-in-sourcemod/193)
+[**View Guide On TMC (Recommended Due To Better Formatting)**](https://blog.moddingcommunity.com/how-to-manage-user-permissions-in-sourcemod/)
 
 ## Table Of Contents
 * [Finding Steam IDs](#finding-steam-ids)
@@ -129,6 +129,6 @@ The cache should automatically reload when the map changes or server restarts. Y
 * [Adding Admins](https://wiki.alliedmods.net/Adding_Admins_(SourceMod)) - Detailed Wiki on adding admins officially by AlliedMods.
 * [SourceBans++](https://sbpp.github.io/) - A popular plugin that makes it easier to manage users, groups, bans, and more!
 
-If you have any questions or feedback regarding this guide, please reply to its forum topic [here](https://forum.moddingcommunity.com/t/how-to-manage-user-permissions-in-sourcemod/193)! This guide will be worked and improved on over time.
+If you have any questions or feedback regarding this guide, please reply to its forum topic [here](https://forum.moddingcommunity.com/t/how-to-manage-user-permissions-in-sourcemod-2025/509)! This guide will be worked and improved on over time.
 
 Join our [Discord server](https://discord.moddingcommunity.com)!
