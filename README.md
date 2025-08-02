@@ -10,6 +10,7 @@ When running a game server with SourceMod installed, it is likely that at some p
 * [Finding Steam IDs](#finding-steam-ids)
 * [Flags](#flags)
 * [Passwords](#passwords)
+* [Immunity](#immunity)
 * [Managing User Permissions](#managing-user-permissions)
     * [Using The `admins_simple.ini` File](#using-the-admins_simpleini-file)
     * [Using The `admins.cfg` File](#using-the-adminscfg-file)
@@ -77,6 +78,13 @@ setinfo "_test" "myCustomPass123"
 ```
 
 If the user wants to automate this process on their side, they'll need to modify the file `<Game Dir>/cfg/autoexec.cfg` and add the command above to the file.
+
+## Immunity
+The `immunity` flag prevents admins from targeting one another depending on the client's immunity level.
+
+For example, if the first admin has an immunity of `20` while the second admin only has an immunity of `10`. The first admin can target the second admin, but the second admin can not target the first admin.
+
+**NOTE** - Admins with the `z` flag (root) can target any player or admin regardless of immunity level.
 
 ## Managing User Permissions
 Managing user permissions and assigning flags is done by modifying a file inside of the `addons/sourcemod/configs` directory (or `addons\sourcemod\configs` folder on Windows).
