@@ -4,7 +4,7 @@ SourceMod is a [MetaMod](https://www.metamodsource.net/about) addon that support
 
 When running a game server with SourceMod installed, it is likely that at some point you'll want to grant yourself or others permissions such as the ability to kick and ban players (admin access).
 
-[**View Guide On TMC (Recommended Due To Better Formatting)**](https://blog.moddingcommunity.com/how-to-manage-user-permissions-in-sourcemod/)
+[**View Guide On TMC (Recommended Due To Better Formatting)**](https://moddingcommunity.com/blog/how-to-manage-user-permissions-in-sourcemod/)
 
 ## Table Of Contents
 * [Finding Steam IDs](#finding-steam-ids)
